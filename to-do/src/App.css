@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 4.6rem;
+    margin: 11.5rem 0rem 2rem 0rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: rgb(19, 19, 86);
+    margin: 2rem 0rem 3rem 0rem;
+}
+
+button {
+    border: none;
+    background-color: rgb(10, 10, 95);
+    color: white;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    border-radius: 9px;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+
+input {
+    border-radius: 6px;
+    margin: 0.5rem;
+    height: 2rem;
+    text-align: center;
+    width: 24vw;
+    border: none;
+    border: 1px solid rgb(41, 27, 103);
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    transform: scale(1.09);
+    cursor: pointer;
+    background-color: rgb(77, 77, 185);
+    box-shadow: 1px 1px 9px white;
+}
+
+button:not(:hover) {
+    transition-duration: 0.5s;
+}
+
+div#current {
+    background-color: rgba(255, 255, 255, 0.373);
+    padding: 0.7rem 0.1rem 0.7rem 0.1rem;
+    border-radius: 8px;
+    /* width: 15vw; */
+    border: 1px solid white;
+    margin: 1rem;
+}
+
+input.newinput {
+    background-color: rgba(155, 227, 203, 0.493);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 2rem;
+    width: 20vw;
+}
+
